@@ -1,0 +1,12 @@
+Bombarding http://localhost:6969 with 5 request(s) using 2 connection(s)
+ 0 / 5 [----------------------------------------------------------------------]   0.00% 2 / 5 [========================>-------------------------------------]  40.00% 0/s 15s 4 / 5 [==================================================>------------]  80.00% 0/s 5s 5 / 5 [===============================================================] 100.00% 0/s 0s 5 / 5 [==============================================================] 100.00% 0/s 30s
+Done!
+Statistics        Avg      Stdev        Max
+  Reqs/sec         0.40      11.29     419.08
+  Latency        10.02s     0.92ms     10.02s
+  HTTP codes:
+    1xx - 0, 2xx - 0, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 5
+  Errors:
+    the server closed connection before returning the first response byte. Make sure the server returns 'Connection: close' response header before closing the connection - 5
+  Throughput:      51.55/s

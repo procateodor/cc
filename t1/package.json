@@ -1,0 +1,28 @@
+{
+  "name": "t1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "debug": "^4.1.1",
+    "dotenv": "^6.2.0",
+    "faker": "^4.1.0",
+    "imgur": "^0.3.1",
+    "microtime": "^3.0.0",
+    "morgan": "^1.9.1",
+    "nan": "^2.12.1",
+    "random-org": "^1.0.0",
+    "random-org-api": "0.0.2",
+    "unsplash": "^4.2.0",
+    "unsplash-api": "^1.2.0",
+    "unsplash-js": "^5.0.0",
+    "unsplash-source-node-js": "^1.0.0"
+  }
+}
